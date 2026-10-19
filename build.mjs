@@ -5,7 +5,7 @@ const page = `<!doctype html>
 <body><h1>Hello from the E34 test product</h1>
 <p>[SYNTHETIC] Corner Bakery: fresh bread every morning.</p>
 <ul><li>Sourdough loaf</li><li>Rye bread</li><li>Cinnamon rolls (weekends)</li></ul>
-<p>Open 7:00â€“15:00, Monday to Saturday.</p></body></html>
+<p>Open 7:00-15:00, Monday to Saturday.</p></body></html>
 `;
 mkdirSync("dist", { recursive: true });
 writeFileSync("dist/index.html", page);
